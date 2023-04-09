@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="stijl.css">
-	<title>{{main_title}}</title>
+	<title>{{title}}</title>
 </head>
 <body>
 	<div><a href="index.html">index</a>
@@ -15,8 +15,9 @@
     <header> {{main_content}}</header>
 	<main> 
 		<ul>
-			{% for post in blogposts %}
-				<li>{post}</li>
+			{% for post in posts %}
+				<li>{post.title} by {post.author} on {post.date}</li>
+				<li>{post.main_content}</li>
 			{% endfor %}
 		</ul>
 </main>
