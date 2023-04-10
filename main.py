@@ -36,7 +36,7 @@ def writeHTML(template, content):
 
 
 def saveHTML(filename, content):
-    save_html = open("./_site/"+filename+".html", "w")
+    save_html = open(filename+".html", "w")
     for line in content:
         save_html.write(line)
     save_html.close()
