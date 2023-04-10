@@ -7,7 +7,7 @@ html {box-sizing: border-box;}
 
 
 body {
-    background-color: lightgrey;
+    background-color: rgb(84, 109, 98);
     margin: 1rem;
 }
 
@@ -37,6 +37,6 @@ main {
 }
 
 footer, header {
-    background-color: #888;
+    background-color: rgb(179, 236, 212);
 }
 
