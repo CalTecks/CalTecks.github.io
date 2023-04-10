@@ -14,12 +14,7 @@
 <a href="contact.html">contact</a></div>
     <header> {{main_content}}</header>
 	<main> 
-		<ul>
-			{% for post in posts %}
-				<li>{post.title} by {post.author} on {post.date}</li>
-				<li>{post.main_content}</li>
-			{% endfor %}
-		</ul>
+		{{main_blog_content}}
 </main>
 </body>
 </html>

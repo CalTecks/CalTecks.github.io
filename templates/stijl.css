@@ -5,6 +5,10 @@ html {box-sizing: border-box;}
 
 /* hier komt jouw css */
 
+h1 {
+    font-size: 2rem;
+}
+
 
 body {
     background-color: lightgrey;
